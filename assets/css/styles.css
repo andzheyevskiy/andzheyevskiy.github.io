@@ -92,6 +92,7 @@ body{
 #welcome-section{
     height: 100vh;
     width: 100vw;
+    min-height: 600px;
     background-image: url(../img/background.jpg);
     margin-top: 40px;
     position: relative;
@@ -146,24 +147,25 @@ body{
     font-weight: bold;
     font-family: sans-serif;
 }
-#htmlcss{
+#projects-content{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
   }
-#htmlcss a{
+#projects-content a{
   width: 90%;
   aspect-ratio: 16/9;
   background-position: center;
+  background-position-y: top;
   position: relative;
   text-decoration: none;
   margin-bottom: 20px;
   border: var(--color4) solid var(--projects-border);
   border-radius: 10px;
 }
-#htmlcss p{
+#projects-content p{
   color: var(--color1);
   position: absolute;
   bottom: 2%;
@@ -215,6 +217,7 @@ align-items: center;
 #social-container a:hover{
   top: -10px;
 }
+
   
 
 
@@ -245,13 +248,13 @@ align-items: center;
 #welcome-section{
   margin-top: 35px;
 }
-#htmlcss{
+#projects-content{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: center;
 }
-#htmlcss a{
+#projects-content a{
   width: 44%;
 }
 #contact{
@@ -274,7 +277,7 @@ align-items: center;
   #navbar-buttons a{
     margin-right: 20px;
   }
-  #htmlcss a{
+  #projects-content a{
     width: 31%;
   }
   #contact{

@@ -1,47 +1,38 @@
-{
-    "type": [
-            {
-        "name":"HTML / CSS",
-        "projects":[
-            {
-                "id":"html4",
-                "name":"Product Landing Page",
-                "url":"https://andzheyevskiy.github.io/Product-Landing-Page/",
-                "img": "Product-Landing-Page.jpg"
-            },
-            {   
-                "id":"html3",
-                "name":"HTML Technical Documentation",
-                "url":"https://andzheyevskiy.github.io/HTML-Technical-Documentation/",
-                "img": "HTML-Technical-Documentation.jpg"
-                
-
-            },
-            {
-                "id":"html2",
-                "name":"Kurt Cobain Tribute Page",
-                "url":"https://andzheyevskiy.github.io/Kurt-Cobain-Tribute-Page/",
-                "img": "Kurt-Cobain-Tribute-Page.jpg"
-
-            },
-            {
-                "id":"html1",
-                "name":"Survey Form",
-                "url":"https://andzheyevskiy.github.io/Survey-Form/",
-                "img": "Survey-Form.jpg"
-
-            }
-        ]
-    },
-    {
-        "name":"HTML / CSS / JavaScript",
-        "projects":[{
-            "id":"js1",
+ {
+    "projects":[
+        {
+            "id":"swdb",
             "name":"Star Wars Data Base",
             "url":"https://andzheyevskiy.github.io/SWDB/",
             "img": "SWDB.jpg"
-            }
-        ]
-    }
+        },
+        {
+            "id":"html4",
+            "name":"Product Landing Page",
+            "url":"https://andzheyevskiy.github.io/Product-Landing-Page/",
+            "img": "Product-Landing-Page.jpg"
+        },
+        {   
+            "id":"html3",
+            "name":"HTML Technical Documentation",
+            "url":"https://andzheyevskiy.github.io/HTML-Technical-Documentation/",
+            "img": "HTML-Technical-Documentation.jpg"
+            
+
+        },
+        {
+            "id":"html2",
+            "name":"Kurt Cobain Tribute Page",
+            "url":"https://andzheyevskiy.github.io/Kurt-Cobain-Tribute-Page/",
+            "img": "Kurt-Cobain-Tribute-Page.jpg"
+
+        },
+        {
+            "id":"html1",
+            "name":"Survey Form",
+            "url":"https://andzheyevskiy.github.io/Survey-Form/",
+            "img": "Survey-Form.jpg"
+
+        }
     ]
 }
