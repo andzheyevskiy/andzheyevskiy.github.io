@@ -7,6 +7,18 @@
             "img": "SWDB.jpg"
         },
         {
+            "id":"js2",
+            "name":"Roman Numeral Converter",
+            "url":"https://github.com/andzheyevskiy/Roman-Numeral-Converter",
+            "img": "Roman-Numeral-Converter.jpg"
+        },
+        {
+            "id":"js1",
+            "name":"Palindrome Checker",
+            "url":"https://andzheyevskiy.github.io/Palindrome-Checker/",
+            "img": "Palindrome-Checker.jpg"
+        },
+        {
             "id":"html4",
             "name":"Product Landing Page",
             "url":"https://andzheyevskiy.github.io/Product-Landing-Page/",

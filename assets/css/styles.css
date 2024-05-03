@@ -25,7 +25,7 @@
     /*PENGUIN*/
     --penguin-face: white;
     --penguin-picorna: orange;
-    --penguin-skin: gray;
+    --penguin-skin: #45a29e;
 }
 *{
   box-sizing: border-box;
@@ -135,7 +135,6 @@ body{
     margin-left: 5%;
     margin-right: 5%;
     padding-top: 10px;
-    z-index: 55;
     border: 1px solid var(--color1);
     border-radius: 10px;
     position: relative;
@@ -154,7 +153,7 @@ body{
   align-items: center;
   margin-top: 10px;
   }
-#projects-content a{
+#projects-content div{
   width: 90%;
   aspect-ratio: 16/9;
   background-position: center;
@@ -217,7 +216,45 @@ align-items: center;
 #social-container a:hover{
   top: -10px;
 }
-
+#iframe-container{
+width: 100vw;
+height: 100vh;
+background-color: rgb(85, 85, 85,0.7);
+position: fixed;
+top: 0;
+left: 0;
+z-index: 5;
+}
+#iframe{
+  width: 95vw;
+  height: 70vh;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+  margin-top: 15vh;
+  border: solid 3px var(--color4);
+  border-radius: 10px;
+  background-color: white;
+}
+#visitpage{
+  display: block;
+  width: 500px;
+  height: 50px;
+  font-size: 30px;
+  color: var(--color1);
+  text-decoration: none;
+  text-align: center;
+  background-color: var(--color4);
+  border: 2px var(--color5) solid;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+}
+#visitpage:hover{
+  background-color: var(--color5);
+  font-weight: bold;
+}
   
 
 
@@ -228,7 +265,11 @@ align-items: center;
 
 /* MAYOR O IGUAL DE 576PX (A PARTIR DE 575PX INCLUSIVE) - SMARTPHONES */
 @media only screen and (min-width:576px){
-
+  #iframe{
+width: 90vw;
+margin-left: 5vw;
+margin-right: 5vw;
+  }
 }
 
 
@@ -254,7 +295,7 @@ align-items: center;
   justify-content: space-around;
   align-content: center;
 }
-#projects-content a{
+#projects-content div{
   width: 44%;
 }
 #contact{
@@ -262,6 +303,14 @@ align-items: center;
 }
 #social-container{
   width: 40%;
+}
+#iframe{
+  height: 80vh;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 10vh;
+
 }
 
 
@@ -277,14 +326,21 @@ align-items: center;
   #navbar-buttons a{
     margin-right: 20px;
   }
-  #projects-content a{
-    width: 31%;
+  #projects-content div{
+    width: 29%;
   }
   #contact{
     width: 50%;
   }
   #social-container{
     width: 40%;
+  }
+  #iframe{
+    height: 75vh;
+    width: 75vw;
+    margin-left: 12.5vw;
+    margin-right: 12.5vw;
+    margin-top: 10vh;
   }
   
 
