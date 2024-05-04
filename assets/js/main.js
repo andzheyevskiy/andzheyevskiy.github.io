@@ -27,17 +27,15 @@ async function getPortfolio() {
 // Post fetched content and add iframe
 function postPortfolio(portfolio){
     for(let i=0; i<portfolio.projects.length; i++){
-      projects.innerHTML+=`
-      <div id="${portfolio.projects[i].id}" style="background-image: url(./assets/img/${portfolio.projects[i].img}"><p>${portfolio.projects[i].name}</p></div>
-      `
+      projects.insertAdjacentHTML('beforeend',`
+      <div id="${portfolio.projects[i].id}" style="background-image: url(./assets/img/${portfolio.projects[i].img});cursor:pointer"><p>${portfolio.projects[i].name}</p><span>${portfolio.projects[i].framework}</span></div>
+      `)
+      document.getElementById(portfolio.projects[i].id).addEventListener("click",()=>{
+        iframe.setAttribute("src",portfolio.projects[i].url)
+        visitpage.setAttribute("href",portfolio.projects[i].url)
+        iframeContainer.classList.toggle("hidden")
+      })
     }
-    for(let i=0; i<portfolio.projects.length; i++){
-    document.getElementById(portfolio.projects[i].id).onclick= function(){
-      iframe.setAttribute("src",portfolio.projects[i].url)
-      visitpage.setAttribute("href",portfolio.projects[i].url)
-      iframeContainer.classList.toggle("hidden")
-    }
-  }
 }
 
   
@@ -48,10 +46,12 @@ getPortfolio().then(data => postPortfolio(data))
 
 //Buttons adjustment| Menu hidding after click //
 for(let element of buttons){
-  element.onclick= ()=>{uncheck()}
+  element.onclick= ()=>{uncheck()
+    iframeContainer.setAttribute("class","hidden")}
 }
 
 //hide iframe
 iframeContainer.addEventListener("click",()=>{
   iframeContainer.classList.toggle("hidden")
+  iframe.setAttribute("src","")
 })

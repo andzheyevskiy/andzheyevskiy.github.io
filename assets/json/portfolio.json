@@ -4,31 +4,36 @@
             "id":"swdb",
             "name":"Star Wars Data Base",
             "url":"https://andzheyevskiy.github.io/SWDB/",
-            "img": "SWDB.jpg"
+            "img": "SWDB.jpg",
+            "framework": "Vanilla"
         },
         {
             "id":"js2",
             "name":"Roman Numeral Converter",
-            "url":"https://github.com/andzheyevskiy/Roman-Numeral-Converter",
-            "img": "Roman-Numeral-Converter.jpg"
+            "url":"https://andzheyevskiy.github.io/Roman-Numeral-Converter/",
+            "img": "Roman-Numeral-Converter.jpg",
+            "framework": "Vanilla"
         },
         {
             "id":"js1",
             "name":"Palindrome Checker",
             "url":"https://andzheyevskiy.github.io/Palindrome-Checker/",
-            "img": "Palindrome-Checker.jpg"
+            "img": "Palindrome-Checker.jpg",
+            "framework": "Vanilla"
         },
         {
             "id":"html4",
             "name":"Product Landing Page",
             "url":"https://andzheyevskiy.github.io/Product-Landing-Page/",
-            "img": "Product-Landing-Page.jpg"
+            "img": "Product-Landing-Page.jpg",
+            "framework": "Vanilla"
         },
         {   
             "id":"html3",
             "name":"HTML Technical Documentation",
             "url":"https://andzheyevskiy.github.io/HTML-Technical-Documentation/",
-            "img": "HTML-Technical-Documentation.jpg"
+            "img": "HTML-Technical-Documentation.jpg",
+            "framework": "Vanilla"
             
 
         },
@@ -36,14 +41,16 @@
             "id":"html2",
             "name":"Kurt Cobain Tribute Page",
             "url":"https://andzheyevskiy.github.io/Kurt-Cobain-Tribute-Page/",
-            "img": "Kurt-Cobain-Tribute-Page.jpg"
+            "img": "Kurt-Cobain-Tribute-Page.jpg",
+            "framework": "Vanilla"
 
         },
         {
             "id":"html1",
             "name":"Survey Form",
             "url":"https://andzheyevskiy.github.io/Survey-Form/",
-            "img": "Survey-Form.jpg"
+            "img": "Survey-Form.jpg",
+            "framework": "Vanilla"
 
         }
     ]

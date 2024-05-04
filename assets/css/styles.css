@@ -16,8 +16,10 @@
     --subh1: 50px;
     --about-image: 20px;
     --projects-h1: 50px;
-    --projects-p: 25px;
-    --project-text: 30px;
+    --projects-p-ssc: 20px;
+    --projects-p-msc: 26px;
+    --projects-p: 30px;
+  
 
     /*Borrders*/
     --projects-border: 5px;
@@ -84,7 +86,6 @@ body{
 }
 #navbar-buttons a{
  color: var(--color4);
-
  font-size: var(--buttons);
  text-decoration: none;
  padding: 4px;
@@ -169,10 +170,20 @@ body{
   position: absolute;
   bottom: 2%;
   left: 2%;
-  background-color: #66fcf1;
+  background-color: var(--color4);
   border-radius: 5px;
   padding: 5px;
-  font-size: var(--project-text);
+  font-size: var(--projects-p-ssc);
+}
+#projects-content span{
+  color: var(--color4);
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: var(--color2);
+  border-radius: 5px;
+  padding: 5px;
+  font-size: var(--projects-p-ssc);
 }
 #contact{
 width: 90%;
@@ -243,8 +254,8 @@ z-index: 5;
   color: var(--color1);
   text-decoration: none;
   text-align: center;
-  background-color: var(--color4);
-  border: 2px var(--color5) solid;
+  background-color: var(--color5);
+  border: 2px var(--color4) solid;
   border-radius: 10px;
   margin-top: 15px;
   margin-left: auto;
@@ -252,7 +263,8 @@ z-index: 5;
   padding-top: 5px;
 }
 #visitpage:hover{
-  background-color: var(--color5);
+  background-color: var(--color4);
+  border-color: var(--color5);
   font-weight: bold;
 }
   
@@ -269,6 +281,9 @@ z-index: 5;
 width: 90vw;
 margin-left: 5vw;
 margin-right: 5vw;
+  }
+  #projects-content p{
+    font-size: var(--projects-p-msc);
   }
 }
 
@@ -294,6 +309,9 @@ margin-right: 5vw;
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: center;
+}
+#projects-content p{
+  font-size: var(--projects-p);
 }
 #projects-content div{
   width: 44%;
@@ -342,6 +360,9 @@ margin-right: 5vw;
     margin-right: 12.5vw;
     margin-top: 10vh;
   }
+  #projects-content p{
+    font-size: var(--projects-p-msc);
+  }
   
 
 }
@@ -383,12 +404,7 @@ margin-right: 5vw;
   .penguin * {
     position: absolute;
   }
-  
-  .penguin:active {
-    transform: scale(1.5);
-    cursor: not-allowed;
-  }
-  
+    
   .penguin-head {
     width: 50%;
     height: 40%;
