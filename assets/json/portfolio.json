@@ -8,6 +8,13 @@
             "framework": "Vanilla"
         },
         {
+            "id":"js3",
+            "name":"Telephone Number Validator",
+            "url":"https://andzheyevskiy.github.io/Telephone-Number-Validator/",
+            "img": "Telephone-Number-Validator.jpg",
+            "framework": "Vanilla"
+        },
+        {
             "id":"js2",
             "name":"Roman Numeral Converter",
             "url":"https://andzheyevskiy.github.io/Roman-Numeral-Converter/",
