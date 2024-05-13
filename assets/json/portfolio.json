@@ -8,6 +8,20 @@
             "framework": "Vanilla"
         },
         {
+            "id":"js5",
+            "name":"Pokedex App",
+            "url":"https://andzheyevskiy.github.io/Pokedex-App/",
+            "img": "Pokedex-App.jpg",
+            "framework": "Vanilla"
+        },
+        {
+            "id":"js4",
+            "name":"Cash Register ",
+            "url":"https://andzheyevskiy.github.io/Cash-Register/",
+            "img": "Cash-Register.jpg",
+            "framework": "Vanilla"
+        },
+        {
             "id":"js3",
             "name":"Telephone Number Validator",
             "url":"https://andzheyevskiy.github.io/Telephone-Number-Validator/",

@@ -185,6 +185,17 @@ body{
   padding: 5px;
   font-size: var(--projects-p-ssc);
 }
+#more{
+  height: 30px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  background: linear-gradient(var(--color4),var(--color3));
+  font-size: 20px;
+
+}
 #contact{
 width: 90%;
 margin-top: 30px;

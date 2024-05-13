@@ -4,6 +4,10 @@ const buttons=[
   document.getElementById("b-projects"),
   document.getElementById("b-contact")
 ]
+const loadMore = document.getElementById("more")
+let startingIndex = 0;
+let endingIndex = 6;
+let portfolio =[]
 
 //iframe elements
 const iframeContainer = document.getElementById("iframe-container")
@@ -20,19 +24,19 @@ const projects =document.getElementById("projects-content")
 // Fetch portfolio file
 async function getPortfolio() {
     const response = await fetch("./assets/json/portfolio.json");
-    const portfolio = await response.json();
-    return portfolio
+    portfolio = await response.json();
+    return portfolio.projects
   }
 
 // Post fetched content and add iframe
 function postPortfolio(portfolio){
-    for(let i=0; i<portfolio.projects.length; i++){
+    for(let i=0; i<portfolio.length; i++){
       projects.insertAdjacentHTML('beforeend',`
-      <div id="${portfolio.projects[i].id}" style="background-image: url(./assets/img/${portfolio.projects[i].img});cursor:pointer"><p>${portfolio.projects[i].name}</p><span>${portfolio.projects[i].framework}</span></div>
+      <div id="${portfolio[i].id}" style="background-image: url(./assets/img/${portfolio[i].img});cursor:pointer"><p>${portfolio[i].name}</p><span>${portfolio[i].framework}</span></div>
       `)
-      document.getElementById(portfolio.projects[i].id).addEventListener("click",()=>{
-        iframe.setAttribute("src",portfolio.projects[i].url)
-        visitpage.setAttribute("href",portfolio.projects[i].url)
+      document.getElementById(portfolio[i].id).addEventListener("click",()=>{
+        iframe.setAttribute("src",portfolio[i].url)
+        visitpage.setAttribute("href",portfolio[i].url)
         iframeContainer.classList.toggle("hidden")
       })
     }
@@ -42,7 +46,17 @@ function postPortfolio(portfolio){
   
 
 //RUN FUNCTION//
-getPortfolio().then(data => postPortfolio(data))
+getPortfolio().then(data => postPortfolio(data.slice(startingIndex, endingIndex)))
+loadMore.addEventListener("click",()=>{
+  startingIndex += 6;
+  endingIndex += 6
+  getPortfolio().then(data => {
+    postPortfolio(data.slice(startingIndex, endingIndex))
+    if(data.length<=endingIndex){
+      loadMore.style.display="none"
+    }
+  })
+})
 
 //Buttons adjustment| Menu hidding after click //
 for(let element of buttons){
