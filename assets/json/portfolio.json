@@ -1,6 +1,13 @@
  {
     "projects":[
         {
+            "id":"jq1",
+            "name":"Random Quote Machine",
+            "url":"https://andzheyevskiy.github.io/Random-Quote-Machine/",
+            "img": "Random-Quote-Machine.jpg",
+            "framework": "JQuery / SASS"
+        },
+        {
             "id":"swdb",
             "name":"Star Wars Data Base",
             "url":"https://andzheyevskiy.github.io/SWDB/",
