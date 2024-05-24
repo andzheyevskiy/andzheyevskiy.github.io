@@ -1,6 +1,13 @@
  {
     "projects":[
         {
+            "id":"jq2",
+            "name":"Random Quote Machine",
+            "url":"https://andzheyevskiy.github.io/Markdown-Previewer/",
+            "img": "Markdown-Previewer.jpg",
+            "framework": "JQuery / SASS"
+        },
+        {
             "id":"jq1",
             "name":"Random Quote Machine",
             "url":"https://andzheyevskiy.github.io/Random-Quote-Machine/",
