@@ -2,7 +2,7 @@
     "projects":[
         {
             "id":"jq2",
-            "name":"Random Quote Machine",
+            "name":"Markdown Previewer",
             "url":"https://andzheyevskiy.github.io/Markdown-Previewer/",
             "img": "Markdown-Previewer.jpg",
             "framework": "JQuery / SASS"
