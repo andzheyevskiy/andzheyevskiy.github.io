@@ -1,6 +1,13 @@
  {
     "projects":[
         {
+            "id":"swdbjq",
+            "name":"Star Wars Data Base JQuery",
+            "url":"https://andzheyevskiy.github.io/Star-Wars-Databse-JQuery/",
+            "img": "Star-Wars-Databse-JQuery.jpg",
+            "framework": "JQuery / SASS"
+        },
+        {
             "id":"jq2",
             "name":"Markdown Previewer",
             "url":"https://andzheyevskiy.github.io/Markdown-Previewer/",
