@@ -259,7 +259,8 @@ z-index: 5;
 }
 #visitpage{
   display: block;
-  width: 500px;
+  width: 90%;
+  max-width: 500px;
   height: 50px;
   font-size: 30px;
   color: var(--color1);
