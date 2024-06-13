@@ -1,6 +1,13 @@
  {
     "projects":[
         {
+            "id":"react1",
+            "name":"Drum Machine",
+            "url":"https://andzheyevskiy.github.io/Drum-Machine/",
+            "img": "Drum-Machine.jpg",
+            "framework": "React"
+        },
+        {
             "id":"swdbjq",
             "name":"Star Wars Data Base JQuery",
             "url":"https://andzheyevskiy.github.io/Star-Wars-Databse-JQuery/",
