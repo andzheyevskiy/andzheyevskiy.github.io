@@ -30,13 +30,13 @@ async function getPortfolio() {
 
 // Post fetched content and add iframe
 function postPortfolio(portfolio){
-    for(let i=0; i<portfolio.length; i++){
+    for(const project of portfolio){
       projects.insertAdjacentHTML('beforeend',`
-      <div id="${portfolio[i].id}" style="background-image: url(./assets/img/${portfolio[i].img});cursor:pointer"><p>${portfolio[i].name}</p><span>${portfolio[i].framework}</span></div>
+      <div id="${project.id}" style="background-image: url(./assets/img/${project.img});cursor:pointer"><p>${project.name}</p><span>${project.framework}</span></div>
       `)
-      document.getElementById(portfolio[i].id).addEventListener("click",()=>{
-        iframe.setAttribute("src",portfolio[i].url)
-        visitpage.setAttribute("href",portfolio[i].url)
+      document.getElementById(project.id).addEventListener("click",()=>{
+        iframe.setAttribute("src",project.url)
+        visitpage.setAttribute("href",project.url)
         iframeContainer.classList.toggle("hidden")
       })
     }
