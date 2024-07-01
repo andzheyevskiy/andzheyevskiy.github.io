@@ -1,6 +1,13 @@
  {
     "projects":[
         {
+            "id":"react2",
+            "name":"React Calculator",
+            "url":"https://andzheyevskiy.github.io/Calculator/",
+            "img": "Calculator.jpg",
+            "framework": "React"
+        },
+        {
             "id":"react1",
             "name":"Drum Machine",
             "url":"https://andzheyevskiy.github.io/Drum-Machine/",
