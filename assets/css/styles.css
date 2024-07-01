@@ -34,7 +34,6 @@
 }
 body{
     position: absolute;
-    background-color: var(--color1);
     overflow-x: hidden;
     background-color: var(--color5);
 }
