@@ -1,6 +1,13 @@
  {
     "projects":[
         {
+            "id":"react3",
+            "name":"25-5 Clock",
+            "url":"https://andzheyevskiy.github.io/25-5-Clock/",
+            "img": "25-5-Clock.jpg",
+            "framework": "React"
+        },
+        {
             "id":"react2",
             "name":"React Calculator",
             "url":"https://andzheyevskiy.github.io/Calculator/",
