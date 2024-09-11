@@ -1,6 +1,13 @@
  {
     "projects":[
         {
+            "id":"react4",
+            "name":"Local Notes",
+            "url":"https://andzheyevskiy.github.io/Local-Notes/",
+            "img": "Local-Notes.jpg",
+            "framework": "React / Typescript"
+        },
+        {
             "id":"react3",
             "name":"25-5 Clock",
             "url":"https://andzheyevskiy.github.io/25-5-Clock/",
