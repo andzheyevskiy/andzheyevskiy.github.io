@@ -12,8 +12,8 @@
     --menu: 32px;
     --menu-icon: 50px;
     --buttons: 30px;
-    --h1: 100px;
-    --subh1: 50px;
+    --h1: 70px;
+    --subh1: 40px;
     --about-image: 20px;
     --projects-h1: 50px;
     --projects-p-ssc: 20px;
@@ -90,13 +90,14 @@ body{
  padding: 4px;
 }
 #welcome-section{
-    height: 100vh;
+    height: 50vh;
     width: 100vw;
-    min-height: 600px;
+    min-height: 500px;
     background-image: url(../img/background.webp);
     margin-top: 40px;
     position: relative;
     border-radius: 0 0 5% 5%;
+    overflow: hidden;
 }
 
 #welcome-section h1{
@@ -350,7 +351,7 @@ margin-right: 5vw;
 /* MAYOR O IGUAL DE 992PX (A PARTIR DE 992PX INCLUSIVE) - PC PEQUEÑOS, LAPTOPS */
 @media only screen and (min-width:992px){
   #navbar-buttons{
-    justify-content: end;
+    justify-content: center;
   }
   #navbar-buttons a{
     margin-right: 20px;
@@ -402,8 +403,8 @@ margin-right: 5vw;
 
 /* PENGUIN!!!! */
 .penguin {
-    width: 300px;
-    height: 380px;
+    width: 250px;
+    height: 300px;
     margin: auto;
     margin-top: 75px;
     z-index: 5;
