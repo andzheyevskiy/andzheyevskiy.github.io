@@ -36,17 +36,24 @@
             "framework": "React"
         },
         {
+            "id":"reloj",
+            "name":"Simple JS Clock",
+            "url":"https://andzheyevskiy.github.io/Js-Clock/",
+            "img": "clock.jpg",
+            "framework": "Vanilla"
+        },
+        {
+            "id":"gato",
+            "name":"Watcher cat",
+            "url":"https://andzheyevskiy.github.io/Watcher-Cat-js/",
+            "img": "watcher-cat.jpg",
+            "framework": "Vanilla"
+        },
+        {
             "id":"swdbjq",
             "name":"Star Wars Data Base JQuery",
             "url":"https://andzheyevskiy.github.io/Star-Wars-Databse-JQuery/",
             "img": "Star-Wars-Databse-JQuery.jpg",
-            "framework": "JQuery / SASS"
-        },
-        {
-            "id":"jq2",
-            "name":"Markdown Previewer",
-            "url":"https://andzheyevskiy.github.io/Markdown-Previewer/",
-            "img": "Markdown-Previewer.jpg",
             "framework": "JQuery / SASS"
         },
         {
@@ -71,13 +78,6 @@
             "framework": "Vanilla"
         },
         {
-            "id":"js4",
-            "name":"Cash Register ",
-            "url":"https://andzheyevskiy.github.io/Cash-Register/",
-            "img": "Cash-Register.jpg",
-            "framework": "Vanilla"
-        },
-        {
             "id":"js3",
             "name":"Telephone Number Validator",
             "url":"https://andzheyevskiy.github.io/Telephone-Number-Validator/",
@@ -97,38 +97,6 @@
             "url":"https://andzheyevskiy.github.io/Palindrome-Checker/",
             "img": "Palindrome-Checker.jpg",
             "framework": "Vanilla"
-        },
-        {
-            "id":"html4",
-            "name":"Product Landing Page",
-            "url":"https://andzheyevskiy.github.io/Product-Landing-Page/",
-            "img": "Product-Landing-Page.jpg",
-            "framework": "Vanilla"
-        },
-        {   
-            "id":"html3",
-            "name":"HTML Technical Documentation",
-            "url":"https://andzheyevskiy.github.io/HTML-Technical-Documentation/",
-            "img": "HTML-Technical-Documentation.jpg",
-            "framework": "Vanilla"
-            
-
-        },
-        {
-            "id":"html2",
-            "name":"Kurt Cobain Tribute Page",
-            "url":"https://andzheyevskiy.github.io/Kurt-Cobain-Tribute-Page/",
-            "img": "Kurt-Cobain-Tribute-Page.jpg",
-            "framework": "Vanilla"
-
-        },
-        {
-            "id":"html1",
-            "name":"Survey Form",
-            "url":"https://andzheyevskiy.github.io/Survey-Form/",
-            "img": "Survey-Form.jpg",
-            "framework": "Vanilla"
-
         }
     ]
 }
